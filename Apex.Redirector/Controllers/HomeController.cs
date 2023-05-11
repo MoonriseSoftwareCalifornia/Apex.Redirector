@@ -21,6 +21,8 @@ namespace Apex.Redirector.Controllers
                     return RedirectPermanent("https://www.moonrise.net");
                 case "cosmoswps.com":
                     return RedirectPermanent("https://www.cosmoswps.com");
+                case "daffydillydog.com":
+                    return RedirectPermanent("https://www.daffydillydog.com");
 
             }
             return NotFound(404.100);
